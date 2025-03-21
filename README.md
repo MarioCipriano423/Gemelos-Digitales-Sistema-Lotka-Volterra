@@ -8,13 +8,14 @@ Cipriano Camacho Mario Tolentino
 Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, Tecnológico Nacional de México/IT Tijuana. Blvd. Alberto Limón Padilla s/n, Tijuana, C.P. 22454, B.C., México. Email: paul.valle@tectijuana.edu.mx
 
 ## Resumen de la práctica
-En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. Posteriormente, se calculará la tasa de decrecimiento biológico a partir del tiempo de vida media, permitiendo estimar la dinámica de diversos procesos fisiológicos. Asimismo, se ajustará la ecuación de farmacocinética de primer orden utilizando algoritmos de regresión no lineal, con el objetivo de estimar las tasas de liberación de fármacos por nanohidrogeles. Finalmente, se diseñarán protocolos de quimioterapia basados en modelos matemáticos para ilustrar la concentración del imatinib en el compartimento sanguíneo, considerando su absorción tras la ingesta oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelizado de fenómenos biológicos, contribuyendo al desarrollo de estrategias terapéuticas personalizadas.
+En esta práctica, se implementarán modelos de Lotka-Volterra utilizando aproximaciones con los métodos de Euler y Heun, así como solucionadores de MATLAB, los cuales se clasifican como "Stiff" y "Non-Stiff" según el tipo de problema, de acuerdo con la investigación bibliográfica. Los problemas del tipo Lotka-Volterra pertenecen a la categoría de "Non-Stiff problems", por lo que se selecciona un solucionador de esta misma categoría.
+Por último, se lleva a cabo una investigación para identificar una población que pueda ser modelada bajo este enfoque. Para ello, se elige una población de zorros y conejos, con la cual se realiza un ajuste de los datos crudos y se resuelve el problema.
 
 ## Objetivos específicos
-1. Aplicar los métodos de Euler y Heun para la solución de Ecuaciones Diferenciales Ordinarias de primer orden lineales e invariantes en el tiempo.
-2. Calcular las tasas de crecimiento, degradación a partir del tiempo de vida medio biológico.
-3. Ajusta la Ecuación de farmacocinética de primer orden mediante algoritmos de regresión no lineal para la estimación de tasas de liberación de fármaco por nanohidrogeles.
-4. Diseñar protocolos de quimioterapia basados en modelos para ilustrar la dinámica del imatinib en el compartimento sanguíneo cuando se ingiere una dosis de 300 mg/día de este fármaco.
+1. Aplicar los métodos de Euler y Heun para la solución de un sistema Lotka-Volterra.
+2. Seleccionar un solucionador de MATLAB para resolver el problema de forma eficiente.
+3. Modelar sistemas Lotka-Volterra reales utilizando datos de poblaciones que presentan este comportamiento.
+4. Seleccionar una población propia para modelar su comportamiento con base en el sistema Lotka-Volterra.
 
 ## Docente
 Dr. Paul A. Valle
@@ -24,4 +25,7 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
 
-[2] González‐Ayón, M. A., Sañudo‐Barajas, J. A., Picos‐Corrales, L. A., & Licea‐Claverie, A. (2015). PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil. Journal of Polymer Science Part A: Polymer Chemistry, 53(22), 2662-2672. doi: https://doi.org/10.1002/pola.27766
+[2] M. Cleve, “Stiff Differential Equations,” Mathworks.com, 2003. https://la.mathworks.com/company/technical-articles/stiff-differential-equations.html (accessed Feb. 24, 2025).
+
+[3] J. Asencio, O. Tutorizado Por José, M. Gutiérrez, and E. Grado De Biología, “Modelo Depredador- Presa de Lotka-Volterra Lotka-Volterra Prey-Predator model Trabajo de Fin de Grado,” 2017. Available: https://riull.ull.es/xmlui/bitstream/handle/915/6217/Modelo%20depredador-presa%20de%20Volterra-Lotka.pdf?sequence=1&isAllowed=y
+‌
