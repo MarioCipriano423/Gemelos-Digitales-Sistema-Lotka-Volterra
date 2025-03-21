@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=DrPaulValle/Gemelos-Digitales-Leyes-de-crecimiento-exponencial-Valle05211261-)
 
-# Gemelos Digitales. Práctica 1: Leyes de crecimiento exponencial [Cipriano20211961]
+# Gemelos Digitales. Práctica 2: Sistema Lotka-Volterra [Cipriano20211961]
 
 ## Autor
 Cipriano Camacho Mario Tolentino
